@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+  padding: 30px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.name {
+  font-size: 1.7rem;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+.bio {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.button {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
